@@ -14,17 +14,35 @@ body{
 <script type-"text/javascript">
 
 window.onload = function(){
-	var img = new Effect.Img({
-		id: 'sample',
-		url: 'http://daegwang.github.io/lab/effectjs/img/sample.png',
-	});
-	img.radius(10).rotate(10);
+	var imgUrl = ''
+	var img1 = new Effect.Img({ id: 'sample1', url: imgUrl });
+	var img2 = new Effect.Img({ id: 'sample2', url: imgUrl });
+	var img3 = new Effect.Img({ id: 'sample3', url: imgUrl });
+	var img4 = new Effect.Img({ id: 'sample4', url: imgUrl });
+	var img5 = new Effect.Img({ id: 'sample5', url: imgUrl });
+	var img6 = new Effect.Img({ id: 'sample6', url: imgUrl });
+	var img7 = new Effect.Img({ id: 'sample7', url: imgUrl });
+
+	img1.opacity(0.7);
+	img2.radius(10);
+	img3.rotate(30);
+	img4.scale(0.7);
+	img5.blur(0.9);
+	img6.grayscale(1);
+	img7.sepia(1);
+
 }
 
 </script>
 </head>
 <body>
-<div id="sample"></div>
+<div id="sample1"></div>
+<div id="sample2"></div>
+<div id="sample3"></div>
+<div id="sample4"></div>
+<div id="sample5"></div>
+<div id="sample6"></div>
+<div id="sample7"></div>
 
 </body>
 </html>
