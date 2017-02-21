@@ -14,22 +14,22 @@ body{
 <script type-"text/javascript">
 
 window.onload = function(){
-	var imgUrl = ''
-	var img1 = new Effect.Img({ id: 'sample1', url: imgUrl });
-	var img2 = new Effect.Img({ id: 'sample2', url: imgUrl });
-	var img3 = new Effect.Img({ id: 'sample3', url: imgUrl });
-	var img4 = new Effect.Img({ id: 'sample4', url: imgUrl });
-	var img5 = new Effect.Img({ id: 'sample5', url: imgUrl });
-	var img6 = new Effect.Img({ id: 'sample6', url: imgUrl });
-	var img7 = new Effect.Img({ id: 'sample7', url: imgUrl });
 
-	img1.opacity(0.7);
-	img2.radius(10);
-	img3.rotate(30);
-	img4.scale(0.7);
-	img5.blur(0.9);
-	img6.grayscale(1);
-	img7.sepia(1);
+	var imgUrl = 'https://daegwang.github.io/lab/effectjs/img/sample.jpg';
+	var arr = ['#sample1', '#sample2', '#sample3', '#sample4', '#sample5', '#sample6', '#sample7'];
+	var img = [];
+	for(var i in arr){
+		img.push(Effect(arr[i]));
+		img[i].setImg(imgUrl);
+	}
+
+	img[0].opacity(0.7);
+	img[1].radius(30);
+	img[2].rotate(30);
+	img[3].scale(0.7);
+	img[4].blur(0.9);
+	img[5].grayscale(1);
+	img[6].sepia(1);
 
 }
 
