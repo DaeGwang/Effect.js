@@ -1,5 +1,8 @@
 # Effect.js
-Javascript DOM Effect Library (CSS3)
+Javascript DOM Effect Library (CSS3)  
+
+[![npm version](https://badge.fury.io/js/effect-js.svg)](https://badge.fury.io/js/effect-js)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DaeGwang/Effect.js/blob/master/LICENSE)
 
 - Website: [https://daegwang.github.io/lab/effectjs/](https://daegwang.github.io/lab/effectjs/)
 - Github: [Effect.js](https://github.com/DaeGwang/Effect.js)
