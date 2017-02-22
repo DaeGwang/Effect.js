@@ -7,18 +7,20 @@ Javascript DOM Effect Library (CSS3)
 - Website: [https://daegwang.github.io/lab/effect.js/](https://daegwang.github.io/lab/effectjs/)
 - Github: [Effect.js](https://github.com/DaeGwang/Effect.js)
 
+## Installation
+
+- Download [Effect.js](https://raw.githubusercontent.com/DaeGwang/Effect.js/master/js/Effect.js)
+
+	```html
+	<script type="text/javascript" src="js/Effect.js"></script>
+	```
+- Install with [npm](https://www.npmjs.com/)
+	```bash
+	$npm install effect-js
+	```
+  
+
 ## How to use
-
-### Download/Installation
-download: [Effect.js](https://raw.githubusercontent.com/DaeGwang/Effect.js/master/js/Effect.js)
-
-```html
-<script type="text/javascript" src="js/Effect.js"></script>
-```
-
-```bash
-$npm install effect-js
-```
 
 ### Select DOM
 
