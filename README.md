@@ -14,16 +14,11 @@ include Effect.js
 
 ### Select DOM
 
-##### html
-```html
-<div id="sample"></div> 
-```
-
-##### javascript
-
 ```js
 var dom = Effect('#sample');
 ```
+Only `#id` selecter is possible.
+
 
 ### Set Image Url
 
@@ -31,6 +26,8 @@ var dom = Effect('#sample');
 var imgUrl = 'https://daegwang.github.io/lab/effectjs/img/sample.jpg';
 dom.setImg(imgUrl); //Change or Set Image Url
 ```
+
+After call this Method, `IMG` tag is Generated in your `Selected DOM`. If `Selected DOM`'s TagName is `IMG`, src value is changed to parameter of setImg.
 
 ### Give Effect 
 

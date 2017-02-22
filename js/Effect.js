@@ -135,7 +135,8 @@
     var sec = value || this.transition;
     this.setStyle('transition', 'transform ' + sec + 's');
     this.setStyle('-webkit-transition', '-webkit-transform ' + sec + 's');
-
+    return this;
+    
   };
 
 
