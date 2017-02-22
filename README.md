@@ -15,7 +15,8 @@ Javascript DOM Effect Library (CSS3)
 	<script type="text/javascript" src="js/Effect.js"></script>
 	```
 - Install with [npm](https://www.npmjs.com/)
-	```bash
+
+	```
 	$npm install effect-js
 	```
   
