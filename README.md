@@ -4,7 +4,7 @@ Javascript DOM Effect Library (CSS3)
 [![npm version](https://badge.fury.io/js/effect-js.svg)](https://badge.fury.io/js/effect-js)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DaeGwang/Effect.js/blob/master/LICENSE)
 
-- Website: [https://daegwang.github.io/lab/effect.js/](https://daegwang.github.io/lab/effectjs/)
+- Website: [https://daegwang.github.io/lab/effect.js/](https://daegwang.github.io/lab/effect.js/)
 - Github: [Effect.js](https://github.com/DaeGwang/Effect.js)
 
 ## Installation
@@ -33,7 +33,7 @@ Only `#id` selecter is possible.
 
 ### Set Image Url
 ```js
-var imgUrl = 'https://daegwang.github.io/lab/effectjs/img/sample.jpg';
+var imgUrl = 'https://daegwang.github.io/lab/effect.js/img/sample.jpg';
 dom.setImg(imgUrl); //Change or Set Image Url
 ```
 
@@ -111,7 +111,7 @@ var dom = Effect($('#sample'));
 ```
 
 ## Example
-- [https://daegwang.github.io/lab/effectjs/](https://daegwang.github.io/lab/effectjs/)
+- [https://daegwang.github.io/lab/effect.js/](https://daegwang.github.io/lab/effect.js/)
 
 <!-- ## Browser Support -->
 
