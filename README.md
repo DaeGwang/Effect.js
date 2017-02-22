@@ -4,15 +4,20 @@ Javascript DOM Effect Library (CSS3)
 [![npm version](https://badge.fury.io/js/effect-js.svg)](https://badge.fury.io/js/effect-js)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DaeGwang/Effect.js/blob/master/LICENSE)
 
-- Website: [https://daegwang.github.io/lab/effectjs/](https://daegwang.github.io/lab/effectjs/)
+- Website: [https://daegwang.github.io/lab/effect.js/](https://daegwang.github.io/lab/effectjs/)
 - Github: [Effect.js](https://github.com/DaeGwang/Effect.js)
 
 ## How to use
 
-include Effect.js
+### Download/Installation
+download: [Effect.js](https://raw.githubusercontent.com/DaeGwang/Effect.js/master/js/Effect.js)
 
 ```html
 <script type="text/javascript" src="js/Effect.js"></script>
+```
+
+```bash
+$npm install effect-js
 ```
 
 ### Select DOM
@@ -24,7 +29,6 @@ Only `#id` selecter is possible.
 
 
 ### Set Image Url
-
 ```js
 var imgUrl = 'https://daegwang.github.io/lab/effectjs/img/sample.jpg';
 dom.setImg(imgUrl); //Change or Set Image Url
