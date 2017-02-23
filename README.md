@@ -9,7 +9,7 @@ Javascript DOM Effect Library (CSS3)
 
 ## Installation
 
-- Download [Effect.js](https://raw.githubusercontent.com/DaeGwang/Effect.js/master/effect.js)
+- Download [effect.js](https://raw.githubusercontent.com/DaeGwang/Effect.js/master/effect.js)
 
 	```html
 	<script type="text/javascript" src="js/effect.js"></script>
