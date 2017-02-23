@@ -10,25 +10,27 @@ body{
 }	
 </style>
 
-<script type="text/javascript" src="js/Effect.js"></script>
+<script type="text/javascript" src="../effect.js"></script>
 <script type-"text/javascript">
 
 window.onload = function(){
 
-	var imgUrl = 'https://daegwang.github.io/lab/effectjs/img/sample.jpg';
+	var imgUrl = 'https://daegwang.github.io/lab/effect.js/img/sample.jpg';
 	var arr = ['#sample1', '#sample2', '#sample3', '#sample4', '#sample5', '#sample6', '#sample7'];
 	var img = [];
 	for(var i in arr){
-		img.push(Effect(arr[i]));
+		img.push(Effect(arr[i],{
+			duration: 2
+		}));
 		img[i].setImg(imgUrl);
 	}
 
-	img[0].opacity(0.7);
-	img[1].radius(30);
-	img[2].rotate(30);
-	img[3].scale(0.7);
-	img[4].blur(0.9);
-	img[5].grayscale(1);
+	img[0].radius(30);
+	img[1].rotate(30);
+	img[2].scale(0.7);
+	img[3].opacity(0.7);
+	img[4].blur(1);
+	img[5].grayscale(2);
 	img[6].sepia(1);
 
 }

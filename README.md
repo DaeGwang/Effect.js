@@ -9,10 +9,10 @@ Javascript DOM Effect Library (CSS3)
 
 ## Installation
 
-- Download [Effect.js](https://raw.githubusercontent.com/DaeGwang/Effect.js/master/js/Effect.js)
+- Download [Effect.js](https://raw.githubusercontent.com/DaeGwang/Effect.js/master/effect.js)
 
 	```html
-	<script type="text/javascript" src="js/Effect.js"></script>
+	<script type="text/javascript" src="js/effect.js"></script>
 	```
 - Install with [npm](https://www.npmjs.com/)
 
@@ -28,10 +28,10 @@ Javascript DOM Effect Library (CSS3)
 ```js
 var dom = Effect('#sample');
 ```
-Only `#id` selecter is possible.
 
 
-### Set Image Url
+### Set Image Url (optional)
+
 ```js
 var imgUrl = 'https://daegwang.github.io/lab/effect.js/img/sample.jpg';
 dom.setImg(imgUrl); //Change or Set Image Url
@@ -83,16 +83,16 @@ dom.grayscale(1);
 dom.sepia(1);
 ```
 
-### Transition
+### Duration (s)
 
 ```js
-//Option 1: set Transition at First (default 0)
+//Option 1: set Duration at First (default 0)
 var dom = Effect('#sample', {
-  transition: 1
+  duration: 1
 });
 
-//Option 2: change Transition
-dom.setTransition(2);
+//Option 2: change Duration
+dom.setDuration(2);
 ```
 
 ### Overlay Effect
@@ -101,6 +101,7 @@ dom.setTransition(2);
 
 ```js
 dom.scale(0.6).rotate(15);
+dom.rotate(15).rotate(15); //same as dom.rotate(30);
 ```
 
 
@@ -113,7 +114,13 @@ var dom = Effect($('#sample'));
 ## Example
 - [https://daegwang.github.io/lab/effect.js/](https://daegwang.github.io/lab/effect.js/)
 
-<!-- ## Browser Support -->
+## Browser Support
+- __Chrome__: 26.0, 4.0 -webkit-
+- __Safari__: 6.1, 3.1 -webkit-
+- __Edge__: 10.0
+
+<!-- - Opera: 12.1, 10.5 -o- -->
+<!-- - Firefox: 16.0, 4.0 -moz-	-->
 
 ## License
 Released under MIT License

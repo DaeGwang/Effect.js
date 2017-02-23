@@ -1,6 +1,6 @@
 {
   "name": "effect-js",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Javascript DOM Effect Library",
   "author": { "name": "daegwang", "email": "daegwang.dev@gmail.com", "url": "https://github.com/DaeGwang" },
   "contributors": [
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/DaeGwang/Effect.js/issues"
   },
-  "main": "lib/Effect",
+  "main": "effect.js",
   "licenses": [ {
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 
