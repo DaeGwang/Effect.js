@@ -20,14 +20,14 @@
 
   };
 
-  Effect.verson = '0.2.0';
+  Effect.verson = '0.2.2';
 
   Effect.extend = function(obj, prop) {
 
     if(Object.assign) return Object.assign(obj, prop);
 
     if(obj && prop && typeof prop == 'object'){
-      for ( var i in prop ){
+      for (var i in prop){
         obj[i] = prop[i];
       }
     }
@@ -53,12 +53,14 @@
 
     var dom;
 
-    dom = document.querySelector(selector);
-
-    /*
     if(selector.tagName !== undefined){
       dom = selector;
     }
+    else{
+      dom = document.querySelector(selector);
+    }
+
+    /*
 
     if(Object.prototype.toString.call(selector) === '[object String]'){
       if(selector.charAt(0) === '#'){
@@ -124,7 +126,7 @@
       var img = document.createElement('img');
       img.src = value;
       this.removeChild();
-      this.el.append(img);
+      this.el.appendChild(img);
       this.img = img;
     }
 
@@ -166,6 +168,7 @@
     var webkitOptions = ['filter', 'opacity', '-webkit-transform'];
 
     this.setStyle('transition', Effect.sumArrString(options, sec + 's'));
+    this.setStyle('transition-duration', sec + 's');
     this.setStyle('-webkit-transition', Effect.sumArrString(webkitOptions, sec + 's'));
 
     return this;

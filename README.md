@@ -118,9 +118,10 @@ var dom = Effect($('#sample'));
 - __Chrome__: 26.0, 4.0 -webkit-
 - __Safari__: 6.1, 3.1 -webkit-
 - __Edge__: 10.0
+- __Firefox__: 16.0, 4.0 -moz-
 
-<!-- - Opera: 12.1, 10.5 -o- -->
-<!-- - Firefox: 16.0, 4.0 -moz-	-->
+<!-- - __Opera__: 12.1, 10.5 -o- -->
+
 
 ## License
 Released under MIT License

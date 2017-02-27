@@ -1,6 +1,6 @@
 {
   "name": "effect-js",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Javascript DOM Effect Library",
   "author": { "name": "daegwang", "email": "daegwang.dev@gmail.com", "url": "https://github.com/DaeGwang" },
   "contributors": [
