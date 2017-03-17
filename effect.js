@@ -20,7 +20,7 @@
 
   };
 
-  Effect.verson = '0.2.2';
+  Effect.version = '0.2.2';
 
   Effect.extend = function(obj, prop) {
 
